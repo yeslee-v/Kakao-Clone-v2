@@ -5,7 +5,7 @@
 - Understand HTML5, CSS
 - Cloning Kakao Desktop App (Mac OS ver.)
 
-## Add functions
+## Plans to add functions
 
-- Setting Dark mode
+- Dark mode
 - Add more "Chat"
