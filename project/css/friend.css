@@ -4,6 +4,11 @@
   align-items: center;
 }
 
+.friend--lg {
+  /* border: 2px solid red; */
+  margin: 15px 0px;
+}
+
 .friend .friend__avatar {
   width: 50px;
   border-radius: 38%;
@@ -22,13 +27,49 @@
   align-items: center;
 }
 
+.column__detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.chat__unread {
+  border-radius: 50%;
+  color: white;
+  font-size: 13px;
+  background-color: #dc5d46;
+  padding: 2px 5px;
+  margin-top: 5px;
+}
+
 .friend .friend__avatar {
   margin-right: 15px;
+  cursor: pointer;
 }
 
 .friend__content .friend__name {
   display: block;
   margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.friend__name-myself {
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 50%;
+  padding: 5px 3px;
+  margin-right: 5px;
+  font-size: 7px;
+  color: white;
+}
+
+.friend__content .friend__name i {
+  font-size: 15px;
+  margin-left: 7px;
+  opacity: 0.3;
 }
 
 .friend__content .friend__status,
@@ -47,18 +88,22 @@
 }
 
 .friend .friend__now-listening {
-  border: 1.5px solid #52e084;
+  border: 1.5px solid #00c742;
   padding: 5px 10px;
   border-radius: 15px;
   font-size: 14px;
 }
 
 .friend__now-listening span {
+  font-size: 12px;
   opacity: 0.7;
 }
 
 .friend__now-listening i {
+  margin-left: 3px;
   font-size: 12px;
+  color: #00c742;
+  cursor: progress;
 }
 
 .friend__add-btn {
