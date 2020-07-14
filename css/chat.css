@@ -21,7 +21,7 @@
 
 .chats-body {
   background-image: url("../images/chatBg.png");
-  min-height: 1000vh;
+  min-height: 120vh;
 }
 
 .chat__write--container {
@@ -131,6 +131,45 @@
   margin-bottom: 20px;
 }
 
+.content-detail {
+  border: 1px solid lightgray;
+}
+
+.content-detail img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content-detail:last-child {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-sentence {
+  padding: 5px 0px 5px 10px;
+}
+
+.detail-sentence:nth-child(2) {
+  font-size: 13px;
+  opacity: 0.7;
+}
+.detail-sentence:last-child {
+  font-size: 11px;
+  opacity: 0.3;
+  margin-bottom: 5px;
+}
+
+.message__content {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.message__bubble {
+  margin-top: 8px;
+}
+
 .incoming-message {
   align-self: flex-start;
 }
@@ -179,12 +218,12 @@
 
 .incoming-message .message__bubble {
   border-bottom-left-radius: 0px;
-  background-image: linear-gradient(to right, #7b4397, #dc2430);
+  background-image: linear-gradient(to right, #005aa7, #fffde4);
 }
 
 .sent-message .message__bubble {
   border-bottom-right-radius: 0px;
-  background-image: linear-gradient(to left, #00c6ff, #0072ff);
+  background-image: linear-gradient(to left, #1a2a6c, #b21f1f, #fdbb2d);
 }
 
 @keyframes incomingAnim {

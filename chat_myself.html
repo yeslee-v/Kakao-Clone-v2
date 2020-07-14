@@ -10,7 +10,7 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" href="css/chat_myself.css" />
     <title>Chat | Kakao Clone</title>
   </head>
   <body class="chats-body">
@@ -46,36 +46,25 @@
     </div>
     <main class="chat-screen">
       <ul class="chat__messages">
-        <span class="chat__timestamp">Friday, January 11, 2019</span>
-        <li class="incoming-message message">
-          <img src="images/merida.jpg" class="m-avatar message__avatar" />
+        <span class="chat__timestamp">Monday, July 13, 2020</span>
+        <li class="sent-message message">
           <div class="message__content">
-            <span class="message__bubble">
-              Hello, Yeshin!
-            </span>
-            <span class="message__author">Best Friend</span>
+            <div class="content-detail">
+              <img src="imgs/kakaoclone.jpg" />
+            </div>
+            <div class="content-detail">
+              <span class="detail-sentence">Watch Now - Nomad Coders</span>
+              <span class="detail-sentence">Click here to open the link.</span>
+              <a href="http://nomadcoders.co" class="detail-sentence"
+                >nomadcoders.co</a
+              >
+            </div>
           </div>
         </li>
         <li class="sent-message message">
           <div class="message__content">
             <span class="message__bubble">
-              Hi:)
-            </span>
-          </div>
-        </li>
-        <li class="incoming-message message">
-          <img src="images/merida.jpg" class="m-avatar message__avatar" />
-          <div class="message__content">
-            <span class="message__bubble">
-              Congrats I love you!
-            </span>
-            <span class="message__author">Best Friend</span>
-          </div>
-        </li>
-        <li class="sent-message message">
-          <div class="message__content">
-            <span class="message__bubble">
-              Thank you see you soon!
+              finish today's Homework
             </span>
           </div>
         </li>
@@ -88,7 +77,6 @@
         placeholder="Send message"
         class="chat__write-input"
       />
-
       <div class="chat__icon-left chat__icon">
         <i class="far fa-plus-square"></i>
       </div>

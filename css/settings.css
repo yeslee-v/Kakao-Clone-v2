@@ -16,6 +16,10 @@
   margin-bottom: 30px;
 }
 
+.settings .settings__setting {
+  cursor: pointer;
+}
+
 .settings .settings__setting:last-child {
   margin-bottom: 0px;
 }

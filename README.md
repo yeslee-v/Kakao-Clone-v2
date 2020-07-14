@@ -1,4 +1,4 @@
-# KokoaTalk-Clone-Coding
+# KakaoTalk-Clone-Coding
 
 ## Goal
 
