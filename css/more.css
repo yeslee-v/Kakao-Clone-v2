@@ -6,6 +6,23 @@
   align-items: center;
 }
 
+.more .g-avatar {
+  animation: rotatePic 1.7s linear infinite;
+}
+
+@keyframes rotatePic {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(1turn);
+  }
+}
+
+.more .friend__name i {
+  color: rgb(252, 0, 0);
+}
+
 .more__suggestions-list {
   display: flex;
   justify-content: space-around;
